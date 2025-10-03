@@ -4,8 +4,6 @@
   box-sizing: border-box;
 }
 body {
-  width: 900px;
-  /* height: 700px; */
   padding: 40px;
   font-family: sans-serif;
 }
@@ -78,7 +76,7 @@ nav {
   font-size: 28px;
 }
 .best-text-h2 {
-  font-size: 45px;
+  font-size: 65px;
 }
 .bord {
   border: 2px solid #79c8c7;
@@ -88,7 +86,7 @@ nav {
   margin-bottom: 20px;
 }
 .end {
-  font-size: 12px;
+  font-size: 22px;
   line-height: 1.5;
 }
 .addy {
@@ -99,7 +97,7 @@ nav {
   display: inline-block;
   position: relative;
   display: flex;
-  margin-left: 520px;
+  left: 960px;
 }
 .best-2image {
   width: 100px;
@@ -122,7 +120,7 @@ nav {
   padding-right: 100px;
   display: flex;
   padding-bottom: 50px;
-  gap: 10px;
+  gap: 120px;
 }
 .features-h2,
 .features-p {
@@ -150,8 +148,8 @@ nav {
   clip-path: inset(0 50% 0 0);
   width: 100px;
   position: absolute;
-  right: 442px;
-  top: 685px;
+  right: -9px;
+  top: 738px;
 }
 .testimony-div {
   padding-left: 50px;
@@ -195,7 +193,7 @@ blockquote {
   margin-top: 10px;
   position: relative;
   top: 4px;
-  left: 720px;
+  left: 1170px;
 }
 .get-ready-image {
   margin-top: 30px;
@@ -243,7 +241,7 @@ blockquote {
 }
 .footer-bottom {
   padding-top: 20px;
-  /* font-weight: bold; */
+  margin-left: 50px;
   color: #fff;
   font-size: 10px;
   line-height: 20px;
@@ -271,19 +269,18 @@ blockquote {
   gap: 80px;
 }
 .first-p-article {
-  font-size: 12px;
-  font-weight: bold;
+  font-size: 20px;
 }
 .article-h3 {
   font-weight: bold;
-  font-size: 24px;
+  font-size: 48px;
 }
 .article-image {
   position: relative;
   clip-path: inset(0 50% 0 0);
   width: 100px;
-  left: 770px;
-  top: -30px;
+  left: 1221px;
+  top: -40px;
 }
 .header-article-two {
   height: 320px;
@@ -297,7 +294,7 @@ blockquote {
 .dr-img2 {
   width: 80px;
   position: relative;
-  left: 740px;
+  left: 1190px;
 }
 .directors-img {
   margin-top: 16px;
@@ -399,7 +396,7 @@ blockquote {
 
 /* contact us */
 .contact-header {
-  height: 470px;
+  height: 514px;
 }
 .aside-article-img {
   clip-path: inset(0 0 0 50%);
@@ -410,7 +407,7 @@ blockquote {
 .aside-article {
   padding: 0 100px;
   display: flex;
-  gap: 80px;
+  gap: 200px;
 }
 .contact-aside {
   position: relative;
@@ -418,11 +415,12 @@ blockquote {
 }
 .contact-aside-h1 {
   font-weight: bold;
+  font-size: 48px;
   color: #fff;
 }
 .contact-aside-h3 {
   color: #f67e7e;
-  font-size: 18px;
+  font-size: 28px;
   margin-top: 14px;
   margin-bottom: 20px;
 }
@@ -431,7 +429,7 @@ blockquote {
   gap: 10px;
   color: #fff;
   align-items: center;
-  font-size: 7px;
+  font-size: 18px;
   margin-top: 8px;
 }
 .contact-article {
@@ -442,7 +440,7 @@ blockquote {
   margin-left: 6px;
   color: #79c8c7;
   margin-top: 16px;
-  font-size: 8px;
+  font-size: 16px;
 }
 .last-para {
   margin-bottom: 36px;
@@ -450,7 +448,7 @@ blockquote {
 .long-line {
   margin-top: 10px;
   border: 0.5px solid #79c8c7;
-  width: 350px;
+  width: 500px;
 }
 .contact-article-btn {
   margin-top: 16px;
@@ -462,6 +460,6 @@ blockquote {
 .lst-img-contact {
   clip-path: inset(0 50% 0 0);
   position: relative;
-  right: -755px;
+  right: -1206px;
   top: -160px;
 }
