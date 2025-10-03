@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 body {
-  padding: 40px;
   font-family: sans-serif;
 }
 .header-article {
@@ -97,7 +96,7 @@ nav {
   display: inline-block;
   position: relative;
   display: flex;
-  left: 960px;
+  left: 1030px;
 }
 .best-2image {
   width: 100px;
@@ -105,7 +104,7 @@ nav {
   margin-left: 20px;
   margin-right: 30px;
   position: absolute;
-  left: -30px;
+  left: -70px;
 }
 .bod {
   border: 2px solid #f67e7e;
@@ -148,8 +147,8 @@ nav {
   clip-path: inset(0 50% 0 0);
   width: 100px;
   position: absolute;
-  right: -9px;
-  top: 738px;
+  right: -49px;
+  top: 699px;
 }
 .testimony-div {
   padding-left: 50px;
@@ -193,7 +192,7 @@ blockquote {
   margin-top: 10px;
   position: relative;
   top: 4px;
-  left: 1170px;
+  left: 1250px;
 }
 .get-ready-image {
   margin-top: 30px;
@@ -279,7 +278,7 @@ blockquote {
   position: relative;
   clip-path: inset(0 50% 0 0);
   width: 100px;
-  left: 1221px;
+  left: 1301px;
   top: -40px;
 }
 .header-article-two {
@@ -294,7 +293,7 @@ blockquote {
 .dr-img2 {
   width: 80px;
   position: relative;
-  left: 1190px;
+  left: 1270px;
 }
 .directors-img {
   margin-top: 16px;
@@ -380,18 +379,18 @@ blockquote {
   top: -30px;
 }
 .client-img {
-  width: 100px;
+  width: 150px;
   margin-right: 30px;
   margin-bottom: 60px;
 }
 .logo-cl {
-  width: 40px;
+  width: 70px;
 }
 .group-img {
   text-align: center;
 }
 .client-logo {
-  width: 100px;
+  width: 150px;
 }
 
 /* contact us */
@@ -448,7 +447,7 @@ blockquote {
 .long-line {
   margin-top: 10px;
   border: 0.5px solid #79c8c7;
-  width: 500px;
+  width: 600px;
 }
 .contact-article-btn {
   margin-top: 16px;
@@ -460,6 +459,6 @@ blockquote {
 .lst-img-contact {
   clip-path: inset(0 50% 0 0);
   position: relative;
-  right: -1206px;
+  right: -1286px;
   top: -160px;
 }
