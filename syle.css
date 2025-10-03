@@ -95,9 +95,9 @@ nav {
 .best-image {
   width: 200px;
   display: inline-block;
-  position: relative;
-  display: flex;
+  position: absolute;
   left: 1030px;
+  top: 320px;
 }
 .best-2image {
   width: 100px;
@@ -149,7 +149,7 @@ nav {
   width: 100px;
   position: absolute;
   right: -49px;
-  top: 699px;
+  top: 640px;
 }
 .testimony-div {
   padding-left: 50px;
@@ -182,6 +182,7 @@ blockquote {
 }
 .author {
   margin-top: 10px;
+  margin-bottom: 30px;
 }
 .author-image {
   border-radius: 50px;
@@ -191,19 +192,20 @@ blockquote {
 .last-image {
   margin-bottom: 0;
   margin-top: 10px;
-  position: relative;
-  top: 4px;
+  position: absolute;
+  top: 1110px;
   left: 1250px;
 }
 .get-ready-image {
   margin-top: 30px;
-  position: relative;
-  top: 12px;
+  position: absolute;
+  top: 1182px;
 }
 .red-contact {
   display: flex;
-  position: relative;
-  top: -70px;
+  position: absolute;
+  top: 1230px;
+  left: 300px;
   gap: 140px;
   margin-left: 50px;
   text-align: center;
@@ -276,11 +278,11 @@ blockquote {
   font-size: 48px;
 }
 .article-image {
-  position: relative;
+  position: absolute;
   clip-path: inset(0 50% 0 0);
   width: 100px;
   left: 1301px;
-  top: -40px;
+  top: 218px;
 }
 .header-article-two {
   height: 320px;
@@ -288,13 +290,14 @@ blockquote {
 .dr-img {
   clip-path: inset(0 0 0 50%);
   width: 100px;
-  position: relative;
+  position: absolute;
   left: -50px;
 }
 .dr-img2 {
   width: 80px;
-  position: relative;
+  position: absolute;
   left: 1270px;
+  top: 875px;
 }
 .directors-img {
   margin-top: 16px;
@@ -355,10 +358,9 @@ blockquote {
   text-align: center;
 }
 .director-h2 {
+  padding: 50px;
   color: #fff;
   text-align: center;
-  position: relative;
-  top: -30px;
 }
 .director-box {
   padding: 0 100px;
@@ -367,7 +369,7 @@ blockquote {
   grid-template-rows: 1fr 1fr;
   row-gap: 40px;
   column-gap: 16px;
-  margin-bottom: 30px;
+  padding-bottom: 70px;
 }
 .client {
   background-color: #012f34;
@@ -378,6 +380,12 @@ blockquote {
   font-size: 32px;
   position: relative;
   top: -30px;
+}
+.img-repair {
+  top: 1228px;
+}
+.contact-repair {
+  top: 1290px;
 }
 .client-img {
   width: 150px;
@@ -400,9 +408,9 @@ blockquote {
 }
 .aside-article-img {
   clip-path: inset(0 0 0 50%);
-  position: relative;
+  position: absolute;
   left: -50px;
-  top: 30px;
+  top: 160px;
 }
 .aside-article {
   padding: 0 100px;
@@ -411,7 +419,7 @@ blockquote {
 }
 .contact-aside {
   position: relative;
-  top: -75px;
+  top: 50px;
 }
 .contact-aside-h1 {
   font-weight: bold;
@@ -434,7 +442,7 @@ blockquote {
 }
 .contact-article {
   position: relative;
-  top: -100px;
+  top: 20px;
 }
 .contact-article-p {
   margin-left: 6px;
@@ -459,7 +467,7 @@ blockquote {
 }
 .lst-img-contact {
   clip-path: inset(0 50% 0 0);
-  position: relative;
-  right: -1286px;
-  top: -160px;
+  position: absolute;
+  right: -70px;
+  top: 368px;
 }
