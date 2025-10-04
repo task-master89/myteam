@@ -9,22 +9,27 @@ body {
 }
 .header-article {
   background-color: #014e56;
+  position: relative;
 }
 .feature {
   background-color: #012f34;
+  position: relative;
 }
 .testimony {
   background-color: #004047;
+  position: relative;
 }
 .get-ready {
   background-color: #f67e7e;
   height: 150px;
+  position: relative;
 }
 .end-footer {
   background-color: #002529;
 }
 .directors {
   background-color: #004047;
+  position: relative;
 }
 li {
   list-style: none;
@@ -94,10 +99,9 @@ nav {
 }
 .best-image {
   width: 200px;
-  display: inline-block;
   position: absolute;
-  left: 1030px;
-  top: 320px;
+  bottom: 0;
+  right: 70px;
 }
 .best-2image {
   width: 100px;
@@ -106,6 +110,9 @@ nav {
   margin-right: 30px;
   position: absolute;
   left: -70px;
+}
+.best {
+  position: relative;
 }
 .bod {
   border: 2px solid #f67e7e;
@@ -120,7 +127,7 @@ nav {
   padding-right: 100px;
   display: flex;
   padding-bottom: 50px;
-  gap: 120px;
+  gap: 200px;
 }
 .features-h2,
 .features-p {
@@ -148,8 +155,8 @@ nav {
   clip-path: inset(0 50% 0 0);
   width: 100px;
   position: absolute;
-  right: -49px;
-  top: 640px;
+  right: -50px;
+  bottom: 0;
 }
 .testimony-div {
   padding-left: 50px;
@@ -191,20 +198,20 @@ blockquote {
   margin-bottom: 0;
   margin-top: 10px;
   position: absolute;
-  top: 1120px;
-  left: 1250px;
+  bottom: 0;
+  right: 0;
 }
 .get-ready-image {
   margin-top: 30px;
   position: absolute;
-  top: 1192px;
+  bottom: 0;
 }
 .red-contact {
   display: flex;
   position: absolute;
-  top: 1230px;
-  left: 300px;
   gap: 140px;
+  right: 500px;
+  bottom: 50px;
   margin-left: 50px;
   text-align: center;
   justify-content: center;
@@ -261,10 +268,12 @@ blockquote {
 }
 
 /*ABOUT DESIGN  */
+
 .second-article {
+  position: relative;
   margin-top: 30px;
   display: flex;
-  gap: 80px;
+  gap: 200px;
 }
 .first-p-article {
   font-size: 20px;
@@ -277,8 +286,8 @@ blockquote {
   position: absolute;
   clip-path: inset(0 50% 0 0);
   width: 100px;
-  left: 1301px;
-  top: 218px;
+  bottom: 0;
+  right: -50px;
 }
 .header-article-two {
   height: 320px;
@@ -292,11 +301,11 @@ blockquote {
 .dr-img2 {
   width: 80px;
   position: absolute;
-  left: 1270px;
-  top: 875px;
+  bottom: 0;
+  right: 0;
 }
 .directors-img {
-  margin-top: 16px;
+  margin-top: 24px;
   margin-bottom: 12px;
   border-radius: 50px;
   width: 70px;
@@ -304,7 +313,7 @@ blockquote {
 }
 .directors-h4 {
   color: #79c8c7;
-  margin-bottom: 4px;
+  margin-bottom: 6px;
   font-size: 12px;
 }
 .aden {
@@ -329,29 +338,35 @@ blockquote {
   font-size: 8px;
 }
 .plus {
-  position: relative;
-  top: 20px;
+  position: absolute;
   background-color: #f67e7e;
   border: 10px solid #f67e7e;
   border-radius: 50px;
+  bottom: -15px;
+  right: 50%;
+  transform: translate(50%);
 }
 .multiply {
+  position: absolute;
   background-color: #79c8c7;
   border: 10px solid #79c8c7;
-  color: #002529;
   border-radius: 50px;
-  position: relative;
-  top: 22px;
+  bottom: -15px;
+  right: 50%;
+  transform: translate(50%);
 }
 .director-aside {
   border: 2px solid #012f34;
   background-color: #012f34;
   text-align: center;
+  height: 200px;
+  position: relative;
 }
 .directoraside {
   background-color: #002529;
   border: 2px solid #002529;
   text-align: center;
+  position: relative;
 }
 .director-h2 {
   padding: 50px;
@@ -369,17 +384,14 @@ blockquote {
 }
 .client {
   background-color: #012f34;
+  position: relative;
 }
 .client-h2 {
   color: #fff;
   text-align: center;
   font-size: 32px;
-  position: absolute;
-  top: 1000px;
-  left: 500px;
-}
-.img-repair {
-  top: 1190px;
+  padding-top: 60px;
+  margin-bottom: 40px;
 }
 .client-img {
   width: 150px;
@@ -394,11 +406,15 @@ blockquote {
 }
 .client-logo {
   width: 150px;
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 
 /* contact us */
 .contact-header {
   height: 514px;
+  position: relative;
 }
 .aside-article-img {
   clip-path: inset(0 0 0 50%);
@@ -410,10 +426,7 @@ blockquote {
   padding: 0 100px;
   display: flex;
   gap: 200px;
-}
-.contact-aside {
-  position: relative;
-  top: 50px;
+  margin-top: 50px;
 }
 .contact-aside-h1 {
   font-weight: bold;
@@ -423,8 +436,8 @@ blockquote {
 .contact-aside-h3 {
   color: #f67e7e;
   font-size: 28px;
-  margin-top: 14px;
-  margin-bottom: 20px;
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
 .contact-div {
   display: flex;
@@ -434,23 +447,27 @@ blockquote {
   font-size: 18px;
   margin-top: 8px;
 }
-.contact-article {
-  position: relative;
-  top: 20px;
-}
 .contact-article-p {
   margin-left: 6px;
   color: #79c8c7;
   margin-top: 16px;
   font-size: 16px;
 }
-.last-para {
-  margin-bottom: 36px;
+.first-art-p {
+  margin-top: 0;
 }
-.long-line {
-  margin-top: 10px;
-  border: 0.5px solid #79c8c7;
+.last-para {
+  margin-bottom: 20px;
+}
+input {
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid #79c8c7;
   width: 600px;
+}
+input:focus {
+  outline: none;
+  border-bottom: 1px solid #fff;
 }
 .contact-article-btn {
   margin-top: 16px;
@@ -462,6 +479,6 @@ blockquote {
 .lst-img-contact {
   clip-path: inset(0 50% 0 0);
   position: absolute;
-  right: -70px;
+  right: -65px;
   top: 368px;
 }
