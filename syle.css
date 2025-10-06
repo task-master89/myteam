@@ -2,7 +2,6 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  overflow-x: hidden;
 }
 body {
   font-family: sans-serif;
@@ -482,372 +481,453 @@ input:focus {
   bottom: 0;
 }
 
-/* @media (max-width: 1400px) {
-  .end {
-    font-size: 8px;
-  }
-  .logo {
-    font-size: 20px;
-  }
-  .upper {
-    font-size: 12px;
-  }
-  header,
-  .best,
-  .second-article {
-    padding: 0 60px;
-  }
-  .best-text-h2 {
-    font-size: 24px;
-  }
-  .features {
-    padding-top: 60px;
-    padding-left: 60px;
-    padding-right: 60px;
-    padding-bottom: 30px;
-    gap: 40px;
-  }
-  .features-h2 {
-    font-size: 16px;
-  }
-  .features-h3 {
-    font-size: 12px;
-  }
-  .features-p {
-    font-size: 8px;
-  }
-  blockquote {
-    font-size: 8px;
-    font-weight: normal;
-  }
-  .job {
-    font-size: 8px;
-  }
-  .testimony-firsth2 {
-    margin-bottom: 16px;
-    font-size: 18px;
-  }
-  .red-contact {
-    gap: 70px;
-    margin-left: 80px;
-  }
-  .footer-bottom {
-    margin-left: 0;
-  }
-  .two-footer {
-    gap: 80px;
-  }
-  .end-footer {
-    padding-left: 60px;
-    padding-right: 20px;
-  }
-  .last-p {
-    font-size: 10px;
-  }
-  .article-h3 {
-    font-size: 28px;
-  }
-  .first-p-article {
-    font-size: 10px;
-  }
-  .second-article {
-    gap: 90px;
-  }
-  .director-box {
-    padding: 0 60px;
-    padding-bottom: 60px;
-  }
-  .p-aden {
-    font-size: 12px;
-  }
-  .client-logo {
-    width: 100px;
-  }
-  .client-img {
-    width: 90px;
-  }
-  .logo-cl {
-    width: 50px;
-  }
-  .client {
-    padding: 0 60px;
-  }
-  .aside-article {
-    padding: 0 60px;
-    gap: 70px;
-  }
-  .contact-aside-h1 {
-    font-size: 18px;
-  }
-  .contact-aside-h3 {
-    font-size: 12px;
-  }
-  .contact-div-p {
-    font-size: 8px;
-  }
-  input {
-    width: 350px;
-  }
-  .contact-article-p {
-    font-size: 6px;
-  }
-  .last-para {
-    margin-bottom: 8px;
-  }
-  .contact-header {
-    height: auto;
-  }
-  .aside-article {
-    padding-bottom: 40px;
-  }
-} */
-
-/* @media (max-width: 1200px) {
-  .end {
-    font-size: 8px;
-  }
-  .logo {
-    font-size: 20px;
-  }
-  .upper {
-    font-size: 12px;
-  }
-  header,
-  .best,
-  .second-article {
-    padding: 0 60px;
-  }
-  .best-text-h2 {
-    font-size: 24px;
-  }
-  .features {
-    padding-top: 60px;
-    padding-left: 60px;
-    padding-right: 60px;
-    padding-bottom: 30px;
-    gap: 40px;
-  }
-  .features-h2 {
-    font-size: 16px;
-  }
-  .features-h3 {
-    font-size: 12px;
-  }
-  .features-p {
-    font-size: 8px;
-  }
-  blockquote {
-    font-size: 8px;
-    font-weight: normal;
-  }
-  .job {
-    font-size: 8px;
-  }
-  .testimony-firsth2 {
-    margin-bottom: 16px;
-    font-size: 18px;
-  }
-  .red-contact {
-    gap: 70px;
-    margin-left: 80px;
-  }
-  .footer-bottom {
-    margin-left: 0;
-  }
-  .two-footer {
-    gap: 80px;
-  }
-  .end-footer {
-    padding-left: 60px;
-    padding-right: 20px;
-  }
-  .last-p {
-    font-size: 10px;
-  }
-  .article-h3 {
-    font-size: 28px;
-  }
-  .first-p-article {
-    font-size: 10px;
-  }
-  .second-article {
-    gap: 90px;
-  }
-  .director-box {
-    padding: 0 60px;
-    padding-bottom: 60px;
-  }
-  .p-aden {
-    font-size: 12px;
-  }
-  .client-logo {
-    width: 100px;
-  }
-  .client-img {
-    width: 90px;
-  }
-  .logo-cl {
-    width: 50px;
-  }
-  .client {
-    padding: 0 60px;
-  }
-  .aside-article {
-    padding: 0 60px;
-    gap: 70px;
-  }
-  .contact-aside-h1 {
-    font-size: 18px;
-  }
-  .contact-aside-h3 {
-    font-size: 12px;
-  }
-  .contact-div-p {
-    font-size: 8px;
-  }
-  input {
-    width: 350px;
-  }
-  .contact-article-p {
-    font-size: 6px;
-  }
-  .last-para {
-    margin-bottom: 8px;
-  }
-  .contact-header {
-    height: auto;
-  }
-  .aside-article {
-    padding-bottom: 40px;
-  }
-} */
-
-/* @media (max-width: 992px) {
-  .end {
-    font-size: 8px;
-  }
-  .logo {
-    font-size: 20px;
-  }
-  .upper {
-    font-size: 12px;
-  }
-  header,
-  .best,
-  .second-article {
-    padding: 0 60px;
-  }
-  .best-text-h2 {
-    font-size: 24px;
-  }
-  .features {
-    padding-top: 60px;
-    padding-left: 60px;
-    padding-right: 60px;
-    padding-bottom: 30px;
-    gap: 40px;
-  }
-  .features-h2 {
-    font-size: 16px;
-  }
-  .features-h3 {
-    font-size: 12px;
-  }
-  .features-p {
-    font-size: 8px;
-  }
-  blockquote {
-    font-size: 8px;
-    font-weight: normal;
-  }
-  .job {
-    font-size: 8px;
-  }
-  .testimony-firsth2 {
-    margin-bottom: 16px;
-    font-size: 18px;
-  }
-  .red-contact {
-    gap: 70px;
-    margin-left: 80px;
-  }
-  .footer-bottom {
-    margin-left: 0;
-  }
-  .two-footer {
-    gap: 80px;
-  }
-  .end-footer {
-    padding-left: 60px;
-    padding-right: 20px;
-  }
-  .last-p {
-    font-size: 10px;
-  }
-  .article-h3 {
-    font-size: 28px;
-  }
-  .first-p-article {
-    font-size: 10px;
-  }
-  .second-article {
-    gap: 90px;
-  }
-  .director-box {
-    padding: 0 60px;
-    padding-bottom: 60px;
-  }
-  .p-aden {
-    font-size: 12px;
-  }
-  .client-logo {
-    width: 100px;
-  }
-  .client-img {
-    width: 90px;
-  }
-  .logo-cl {
-    width: 50px;
-  }
-  .client {
-    padding: 0 60px;
-  }
-  .aside-article {
-    padding: 0 60px;
-    gap: 70px;
-  }
-  .contact-aside-h1 {
-    font-size: 18px;
-  }
-  .contact-aside-h3 {
-    font-size: 12px;
-  }
-  .contact-div-p {
-    font-size: 8px;
-  }
-  input {
-    width: 350px;
-  }
-  .contact-article-p {
-    font-size: 6px;
-  }
-  .last-para {
-    margin-bottom: 8px;
-  }
-  .contact-header {
-    height: auto;
-  }
-  .aside-article {
-    padding-bottom: 40px;
-  }
-} */
-
-@media (max-width: 768px) {
-  body {
+@media (max-width: 1400px) {
+  .contact-body,
+  .about-body,
+  .main-container {
     overflow-x: hidden;
   }
   .end {
-    font-size: 8px;
+    font-size: 20px;
+  }
+  .logo {
+    font-size: 42px;
+  }
+  .upper,
+  .contact {
+    font-size: 28px;
+  }
+  header,
+  .best,
+  .second-article {
+    padding: 0 100px;
+  }
+  .best-text-h2 {
+    font-size: 56px;
+  }
+  .features {
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    gap: 40px;
+  }
+  .features-h2 {
+    font-size: 38px;
+  }
+  .features-h3 {
+    font-size: 24px;
+  }
+  .features-p {
+    font-size: 20px;
+  }
+  blockquote {
+    font-size: 18px;
+    font-weight: normal;
+  }
+  .job {
+    font-size: 22px;
+  }
+  .writter {
+    font-size: 28px;
+  }
+  .testimony-firsth2 {
+    margin-bottom: 16px;
+    font-size: 46px;
+  }
+  .testimony-div {
+    padding: 0 100px;
+  }
+  .red-contact {
+    gap: 70px;
+    margin-left: 40px;
+  }
+  .red-contact-h2 {
+    font-size: 42px;
+  }
+  .btn-ready {
+    font-size: 22px;
+  }
+  .footer-link {
+    font-size: 22px;
+  }
+  .logyy {
+    font-size: 28px;
+  }
+  .footer-bottom {
+    margin-left: 0;
+    font-size: 18px;
+  }
+  .two-footer {
+    gap: 80px;
+  }
+  .end-footer {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .last-p {
+    font-size: 24px;
+  }
+  .article-h3 {
+    font-size: 52px;
+  }
+  .first-p-article {
+    font-size: 20px;
+  }
+  .second-article {
+    gap: 120px;
+  }
+  .director-box {
+    padding: 0 100px;
+    padding-bottom: 60px;
+  }
+  .director-h2 {
+    font-size: 42px;
+  }
+  .p-aden {
+    font-size: 18px;
+  }
+  .directors-p {
+    font-size: 18px;
+  }
+  .directors-h4,
+  .aden {
+    font-size: 20px;
+  }
+  .client-logo {
+    width: 180px;
+  }
+  .client-h2 {
+    font-size: 56px;
+  }
+  .client-img {
+    width: 200px;
+  }
+  .logo-cl {
+    width: 100px;
+  }
+  .client {
+    padding: 0 100px;
+  }
+  .contact-aside-h1 {
+    font-size: 58px;
+  }
+  .contact-aside-h3 {
+    font-size: 42px;
+  }
+  .contact-div-p {
+    font-size: 24px;
+  }
+  input {
+    width: 600px;
+  }
+  .contact-article-p {
+    font-size: 18px;
+  }
+  .last-para {
+    margin-bottom: 8px;
+  }
+  .aside-article {
+    padding-bottom: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+    gap: 100px;
+  }
+  .contact-article-btn {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .end {
+    font-size: 16px;
+  }
+  .logo {
+    font-size: 36px;
+  }
+  .upper,
+  .contact {
+    font-size: 24px;
+  }
+
+  header,
+  .best,
+  .second-article {
+    padding: 0 100px;
+  }
+  .best-text-h2 {
+    font-size: 48px;
+  }
+  .features {
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    gap: 40px;
+  }
+  .features-h2 {
+    font-size: 38px;
+  }
+  .features-h3 {
+    font-size: 24px;
+  }
+  .features-p {
+    font-size: 16px;
+  }
+  blockquote {
+    font-size: 16px;
+    font-weight: normal;
+  }
+  .job {
+    font-size: 18px;
+  }
+  .writter {
+    font-size: 24px;
+  }
+  .testimony-firsth2 {
+    margin-bottom: 16px;
+    font-size: 38px;
+  }
+  .testimony-div {
+    padding: 0 100px;
+  }
+  .red-contact {
+    gap: 70px;
+    margin-left: 40px;
+  }
+  .red-contact-h2 {
+    font-size: 42px;
+  }
+  .btn-ready {
+    font-size: 22px;
+  }
+  .footer-link {
+    font-size: 18px;
+  }
+  .logyy {
+    font-size: 24px;
+  }
+  .footer-bottom {
+    margin-left: 0;
+    font-size: 16px;
+  }
+  .two-footer {
+    gap: 80px;
+  }
+  .end-footer {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .last-p {
+    font-size: 24px;
+  }
+  .article-h3 {
+    font-size: 32px;
+  }
+  .first-p-article {
+    font-size: 16px;
+  }
+  .second-article {
+    gap: 120px;
+  }
+  .director-box {
+    padding: 0 100px;
+    padding-bottom: 60px;
+  }
+  .director-h2 {
+    font-size: 42px;
+  }
+  .p-aden {
+    font-size: 14px;
+  }
+  .directors-p {
+    font-size: 14px;
+  }
+  .directors-h4,
+  .aden {
+    font-size: 16px;
+  }
+  .client-logo {
+    width: 150px;
+  }
+  .client-h2 {
+    font-size: 42px;
+  }
+  .client-img {
+    width: 170px;
+  }
+  .logo-cl {
+    width: 70px;
+  }
+  .client {
+    padding: 0 100px;
+  }
+  .contact-aside-h1 {
+    font-size: 46px;
+  }
+  .contact-aside-h3 {
+    font-size: 32px;
+  }
+  .contact-div-p {
+    font-size: 18px;
+  }
+  input {
+    width: 550px;
+  }
+  .contact-article-p {
+    font-size: 16px;
+  }
+  .last-para {
+    margin-bottom: 8px;
+  }
+  .aside-article {
+    padding-bottom: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+    gap: 150px;
+  }
+  .contact-article-btn {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 992px) {
+  .end {
+    font-size: 14px;
+  }
+  .logo {
+    font-size: 28px;
+  }
+  .upper {
+    font-size: 18px;
+  }
+  header,
+  .best,
+  .second-article {
+    padding: 0 60px;
+  }
+  .best-text-h2 {
+    font-size: 38px;
+  }
+  .features {
+    padding-top: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 30px;
+    gap: 40px;
+  }
+  .features-h2 {
+    font-size: 32px;
+  }
+  .features-h3 {
+    font-size: 18px;
+  }
+  .features-p {
+    font-size: 14px;
+  }
+  blockquote {
+    font-size: 12px;
+    font-weight: normal;
+  }
+  .job {
+    font-size: 16px;
+  }
+  .testimony-firsth2 {
+    margin-bottom: 16px;
+    font-size: 28px;
+  }
+  .red-contact {
+    gap: 70px;
+    margin-left: 40px;
+  }
+  .red-contact-h2 {
+    font-size: 32px;
+  }
+  .btn-ready {
+    font-size: 16px;
+  }
+  .footer-bottom {
+    margin-left: 0;
+    font-size: 12px;
+  }
+  .two-footer {
+    gap: 80px;
+  }
+  .end-footer {
+    padding-left: 60px;
+    padding-right: 20px;
+  }
+  .last-p {
+    font-size: 14px;
+  }
+  .article-h3 {
+    font-size: 32px;
+  }
+  .first-p-article {
+    font-size: 16px;
+  }
+  .second-article {
+    gap: 120px;
+  }
+  .director-box {
+    padding: 0 60px;
+    padding-bottom: 60px;
+  }
+  .p-aden {
+    font-size: 14px;
+  }
+  .directors-p {
+    font-size: 14px;
+  }
+  .directors-h4,
+  .aden {
+    font-size: 16px;
+  }
+  .client-logo {
+    width: 120px;
+  }
+  .client-h2 {
+    font-size: 38px;
+  }
+  .client-img {
+    width: 150px;
+  }
+  .logo-cl {
+    width: 70px;
+  }
+  .client {
+    padding: 0 60px;
+  }
+  .aside-article {
+    padding: 0 60px;
+    gap: 150px;
+  }
+  .contact-aside-h1 {
+    font-size: 38px;
+  }
+  .contact-aside-h3 {
+    font-size: 28px;
+  }
+  .contact-div-p {
+    font-size: 12px;
+  }
+  input {
+    width: 450px;
+  }
+  .contact-article-p {
+    font-size: 12px;
+  }
+  .last-para {
+    margin-bottom: 8px;
+  }
+  .aside-article {
+    padding-bottom: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .end {
+    font-size: 10px;
   }
   .logo {
     font-size: 20px;
@@ -861,7 +941,7 @@ input:focus {
     padding: 0 60px;
   }
   .best-text-h2 {
-    font-size: 24px;
+    font-size: 32px;
   }
   .features {
     padding-top: 60px;
@@ -871,7 +951,7 @@ input:focus {
     gap: 40px;
   }
   .features-h2 {
-    font-size: 16px;
+    font-size: 24px;
   }
   .features-h3 {
     font-size: 12px;
@@ -886,16 +966,36 @@ input:focus {
   .job {
     font-size: 8px;
   }
+  .first-p-article {
+    font-size: 10px;
+  }
+  .directors-h4,
+  .aden {
+    font-size: 12px;
+  }
+  .directors-p {
+    font-size: 8px;
+  }
+  .p-aden {
+    font-size: 10px;
+  }
   .testimony-firsth2 {
     margin-bottom: 16px;
-    font-size: 18px;
+    font-size: 24px;
   }
   .red-contact {
     gap: 70px;
     margin-left: 80px;
   }
+  .red-contact-h2 {
+    font-size: 24px;
+  }
+  .btn-ready {
+    font-size: 10px;
+  }
   .footer-bottom {
     margin-left: 0;
+    font-size: 10px;
   }
   .two-footer {
     gap: 80px;
@@ -909,9 +1009,6 @@ input:focus {
   }
   .article-h3 {
     font-size: 28px;
-  }
-  .first-p-article {
-    font-size: 10px;
   }
   .second-article {
     gap: 90px;
@@ -927,7 +1024,7 @@ input:focus {
     width: 100px;
   }
   .client-img {
-    width: 90px;
+    width: 100px;
   }
   .logo-cl {
     width: 50px;
@@ -937,28 +1034,25 @@ input:focus {
   }
   .aside-article {
     padding: 0 60px;
-    gap: 70px;
+    gap: 100px;
   }
   .contact-aside-h1 {
-    font-size: 18px;
+    font-size: 24px;
   }
   .contact-aside-h3 {
-    font-size: 12px;
+    font-size: 18px;
   }
   .contact-div-p {
-    font-size: 8px;
+    font-size: 10px;
   }
   input {
-    width: 350px;
+    width: 300px;
   }
   .contact-article-p {
-    font-size: 6px;
+    font-size: 12px;
   }
   .last-para {
     margin-bottom: 8px;
-  }
-  .contact-header {
-    height: auto;
   }
   .aside-article {
     padding-bottom: 40px;
@@ -966,9 +1060,6 @@ input:focus {
 }
 
 @media (max-width: 576px) {
-  body {
-    overflow-x: hidden;
-  }
   .end {
     font-size: 8px;
   }
@@ -1031,7 +1122,7 @@ input:focus {
     font-size: 10px;
   }
   .article-h3 {
-    font-size: 28px;
+    font-size: 24px;
   }
   .first-p-article {
     font-size: 10px;
@@ -1050,7 +1141,10 @@ input:focus {
     width: 100px;
   }
   .client-img {
-    width: 50px;
+    width: 60px;
+  }
+  .logo-cl {
+    width: 40px;
   }
   .client {
     padding: 0 60px;
@@ -1068,19 +1162,43 @@ input:focus {
   .contact-div-p {
     font-size: 8px;
   }
+  .last-p {
+    font-size: 6px;
+  }
   input {
-    width: 200px;
+    width: 180px;
   }
   .contact-article-p {
     font-size: 6px;
   }
+  .red-contact-h2 {
+    font-size: 20px;
+  }
+  .btn-ready {
+    font-size: 12px;
+  }
+  .directors-h4,
+  .aden {
+    font-size: 12px;
+  }
+  .directors-p {
+    font-size: 8px;
+  }
   .last-para {
     margin-bottom: 8px;
   }
-  .contact-header {
-    height: auto;
+  .footer-bottom {
+    font-size: 8px;
+  }
+  .p-aden {
+    font-size: 8px;
+  }
+  .client-h2 {
+    font-size: 28px;
   }
   .aside-article {
     padding-bottom: 40px;
   }
 }
+/* @media (max-width: 320px) {
+} */
