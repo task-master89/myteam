@@ -201,21 +201,18 @@ blockquote {
   bottom: 0;
   right: 0;
 }
+.get-ready {
+  position: relative;
+}
 .get-ready-image {
-  margin-top: 30px;
   position: absolute;
   bottom: 0;
 }
 .red-contact {
   display: flex;
-  position: absolute;
   gap: 140px;
-  right: 500px;
-  bottom: 50px;
-  margin-left: 50px;
-  text-align: center;
+  padding-top: 50px;
   justify-content: center;
-  align-content: center;
   color: #012f34;
 }
 .btn-ready {
@@ -412,8 +409,8 @@ blockquote {
 }
 
 /* contact us */
+
 .contact-header {
-  height: 514px;
   position: relative;
 }
 .aside-article-img {
@@ -427,6 +424,7 @@ blockquote {
   display: flex;
   gap: 200px;
   margin-top: 50px;
+  padding-bottom: 60px;
 }
 .contact-aside-h1 {
   font-weight: bold;
@@ -480,5 +478,121 @@ input:focus {
   clip-path: inset(0 50% 0 0);
   position: absolute;
   right: -65px;
-  top: 368px;
+  bottom: 0;
+}
+@media (max-width: 576px) {
+  .end {
+    font-size: 8px;
+  }
+  .logo {
+    font-size: 20px;
+  }
+  .upper {
+    font-size: 12px;
+  }
+  header,
+  .best,
+  .second-article {
+    padding: 0 60px;
+  }
+  .best-text-h2 {
+    font-size: 24px;
+  }
+  .features {
+    padding-top: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 30px;
+    gap: 40px;
+  }
+  .features-h2 {
+    font-size: 16px;
+  }
+  .features-h3 {
+    font-size: 12px;
+  }
+  .features-p {
+    font-size: 8px;
+  }
+  blockquote {
+    font-size: 8px;
+    font-weight: normal;
+  }
+  .job {
+    font-size: 8px;
+  }
+  .testimony-firsth2 {
+    margin-bottom: 16px;
+    font-size: 18px;
+  }
+  .red-contact {
+    gap: 70px;
+    margin-left: 80px;
+  }
+  .footer-bottom {
+    margin-left: 0;
+  }
+  .two-footer {
+    gap: 30px;
+  }
+  .end-footer {
+    padding-left: 60px;
+    padding-right: 20px;
+  }
+  .last-p {
+    font-size: 10px;
+  }
+  .article-h3 {
+    font-size: 28px;
+  }
+  .first-p-article {
+    font-size: 10px;
+  }
+  .second-article {
+    gap: 60px;
+  }
+  .director-box {
+    padding-left: 60px;
+    padding-bottom: 60px;
+  }
+  .p-aden {
+    font-size: 10px;
+  }
+  .client-logo {
+    width: 100px;
+  }
+  .client-img {
+    width: 50px;
+  }
+  .client {
+    padding: 0 60px;
+  }
+  .aside-article {
+    padding: 0 60px;
+    gap: 70px;
+  }
+  .contact-aside-h1 {
+    font-size: 18px;
+  }
+  .contact-aside-h3 {
+    font-size: 12px;
+  }
+  .contact-div-p {
+    font-size: 8px;
+  }
+  input {
+    width: 200px;
+  }
+  .contact-article-p {
+    font-size: 6px;
+  }
+  .last-para {
+    margin-bottom: 8px;
+  }
+  .contact-header {
+    height: auto;
+  }
+  .aside-article {
+    padding-bottom: 40px;
+  }
 }
