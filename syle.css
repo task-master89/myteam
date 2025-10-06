@@ -923,6 +923,9 @@ input:focus {
   .aside-article {
     padding-bottom: 40px;
   }
+  .testimony-div {
+    padding: 0 60px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -1057,17 +1060,32 @@ input:focus {
   .aside-article {
     padding-bottom: 40px;
   }
+  .best-text {
+    gap: 0;
+  }
+  .features-h2 {
+    font-size: 22px;
+  }
+  .testimony-div {
+    padding: 0 60px;
+  }
+  .writter {
+    font-size: 12px;
+  }
 }
 
 @media (max-width: 576px) {
   .end {
-    font-size: 8px;
+    font-size: 7px;
   }
   .logo {
     font-size: 20px;
   }
   .upper {
     font-size: 12px;
+  }
+  .best-text {
+    gap: 0;
   }
   header,
   .best,
@@ -1099,6 +1117,9 @@ input:focus {
   }
   .job {
     font-size: 8px;
+  }
+  .director-h2 {
+    font-size: 28px;
   }
   .testimony-firsth2 {
     margin-bottom: 16px;
@@ -1133,6 +1154,12 @@ input:focus {
   .director-box {
     padding-left: 60px;
     padding-bottom: 60px;
+  }
+  .testimony-div {
+    padding: 0 60px;
+  }
+  .writter {
+    font-size: 12px;
   }
   .p-aden {
     font-size: 10px;
