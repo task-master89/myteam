@@ -121,6 +121,13 @@ nav {
   margin-top: 10px;
   margin-bottom: 30px;
 }
+.bodd {
+  border: 2px solid #f67e7e;
+  width: 30px;
+  height: 0;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
 .features {
   padding-top: 100px;
   padding-left: 100px;
@@ -929,153 +936,178 @@ input:focus {
 }
 
 @media (max-width: 768px) {
-  .end {
-    font-size: 10px;
-  }
-  .logo {
-    font-size: 20px;
-  }
-  .upper {
-    font-size: 12px;
-  }
-  header,
-  .best,
-  .second-article {
-    padding: 0 60px;
+  .best-text {
+    grid-template-columns: 1fr;
+    justify-items: center;
   }
   .best-text-h2 {
-    font-size: 32px;
+    font-size: 48px;
+    margin-top: 50px;
+  }
+  .bord {
+    display: none;
+  }
+  .end {
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 180px;
+    padding: 0 100px;
+  }
+  .best-2image {
+    display: none;
+  }
+  .best-image {
+    width: 300px;
+    transform: translate(50%);
+    right: 50%;
   }
   .features {
-    padding-top: 60px;
-    padding-left: 60px;
-    padding-right: 60px;
-    padding-bottom: 30px;
-    gap: 40px;
+    flex-direction: column;
+    padding: 0 100px;
   }
   .features-h2 {
-    font-size: 24px;
+    font-size: 38px;
+    margin-bottom: 30px;
   }
-  .features-h3 {
-    font-size: 12px;
+  .bod {
+    width: 50px;
+    margin-top: 100px;
   }
-  .features-p {
-    font-size: 8px;
+  .best-3image {
+    width: 150px;
+    right: -75px;
+    top: 0;
   }
-  blockquote {
-    font-size: 8px;
-    font-weight: normal;
+  .testimony-cards {
+    flex-direction: column;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 30px;
   }
-  .job {
-    font-size: 8px;
-  }
-  .first-p-article {
-    font-size: 10px;
-  }
-  .directors-h4,
-  .aden {
-    font-size: 12px;
-  }
-  .directors-p {
-    font-size: 8px;
-  }
-  .p-aden {
-    font-size: 10px;
+  .desktop-dsg {
+    width: 100px;
   }
   .testimony-firsth2 {
-    margin-bottom: 16px;
-    font-size: 24px;
+    margin-bottom: 28px;
+    font-size: 32px;
+    padding-left: 100px;
+    padding-right: 100px;
   }
-  .red-contact {
-    gap: 70px;
-    margin-left: 80px;
+  .writter {
+    font-size: 18px;
   }
-  .red-contact-h2 {
-    font-size: 24px;
+  .last-image {
+    width: 150px;
   }
-  .btn-ready {
-    font-size: 10px;
-  }
-  .footer-bottom {
-    margin-left: 0;
-    font-size: 10px;
-  }
-  .two-footer {
-    gap: 80px;
+  .two-footer,
+  .third-footer {
+    display: grid;
+    grid-template-columns: 450px 450px;
   }
   .end-footer {
-    padding-left: 60px;
-    padding-right: 20px;
-  }
-  .last-p {
-    font-size: 10px;
-  }
-  .article-h3 {
-    font-size: 28px;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-right: 30px;
   }
   .second-article {
-    gap: 90px;
+    padding-left: 100px;
+    padding-right: 100px;
+    gap: 30px;
+    text-align: center;
+    flex-direction: column;
+  }
+  .bodd {
+    display: none;
+  }
+  .first-p-article {
+    line-height: 1.6;
+    padding-bottom: 90px;
+  }
+  .header-article-two {
+    height: auto;
+  }
+  .article-h3 {
+    font-size: 46px;
+    margin-top: 20px;
+  }
+  .article-image {
+    width: 170px;
+    right: -85px;
+  }
+  .director-h2 {
+    font-size: 28px;
+  }
+  .dr-img {
+    width: 150px;
+    left: -80px;
   }
   .director-box {
-    padding: 0 60px;
-    padding-bottom: 60px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 0 130px;
+    padding-bottom: 100px;
   }
-  .p-aden {
-    font-size: 12px;
+  .dr-img2 {
+    width: 100px;
   }
   .client-logo {
-    width: 100px;
+    width: 150px;
+    clip-path: inset(50% 0 0 0);
+    top: -75px;
+  }
+  .client {
+    position: relative;
+  }
+  .client-h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
   }
   .client-img {
     width: 100px;
   }
   .logo-cl {
-    width: 50px;
-  }
-  .client {
-    padding: 0 60px;
+    width: 40px;
   }
   .aside-article {
-    padding: 0 60px;
-    gap: 100px;
+    flex-direction: column;
+    gap: 80px;
+    padding-bottom: 100px;
+  }
+  .aside-article-img {
+    width: 170px;
+    left: -90px;
   }
   .contact-aside-h1 {
-    font-size: 24px;
+    font-size: 48px;
+    text-align: center;
   }
   .contact-aside-h3 {
-    font-size: 18px;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 15px;
+  }
+  .contact-div-img {
+    width: 50px;
+    margin-left: 40px;
   }
   .contact-div-p {
-    font-size: 10px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .contact-article {
+    margin-left: 40px;
   }
   input {
-    width: 300px;
+    width: 550px;
   }
-  .contact-article-p {
-    font-size: 12px;
-  }
-  .last-para {
-    margin-bottom: 8px;
-  }
-  .aside-article {
-    padding-bottom: 40px;
-  }
-  .best-text {
-    gap: 0;
-  }
-  .features-h2 {
-    font-size: 22px;
-  }
-  .testimony-div {
-    padding: 0 60px;
-  }
-  .writter {
-    font-size: 12px;
+  .lst-img-contact {
+    right: -75px;
+    width: 150px;
   }
 }
 
 @media (max-width: 576px) {
-  .end {
+  /* .end {
     font-size: 7px;
   }
   .logo {
@@ -1225,7 +1257,7 @@ input:focus {
   }
   .aside-article {
     padding-bottom: 40px;
-  }
+  } */
 }
 /* @media (max-width: 320px) {
 } */
