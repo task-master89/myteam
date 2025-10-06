@@ -1336,5 +1336,26 @@ input:focus {
     width: 150px;
   }
 }
-/* @media (max-width: 390px) {
-} */
+@media (max-width: 400px) {
+  .features-h2 {
+    font-size: 20px;
+  }
+  .red-contact-h2 {
+    font-size: 20px;
+  }
+  .client-img {
+    width: 40px;
+  }
+  .logo-cl {
+    width: 20px;
+  }
+  .two-footer,
+  .third-footer {
+    grid-template-columns: 150px 150px;
+    gap: 100px;
+  }
+  .lst-img-contact {
+    right: -50px;
+    width: 100px;
+  }
+}
