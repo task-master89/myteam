@@ -1105,6 +1105,10 @@ input:focus {
     right: -75px;
     width: 150px;
   }
+  .last-p {
+    font-size: 12px;
+    margin-left: 77px;
+  }
 }
 
 @media (max-width: 449px) {
