@@ -1107,7 +1107,7 @@ input:focus {
   }
   .last-p {
     font-size: 12px;
-    margin-left: 77px;
+    /* margin-left: 77px; */
   }
 }
 
